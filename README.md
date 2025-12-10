@@ -102,13 +102,13 @@ To compile all components (Scheduler, Process logic, MMU, Auth) into a single ex
 
 4. Observation:
 
-  - The system generates random processes.
+    - The system generates random processes.
 
-  - It runs FCFS, SJF, and SRTF sequentially.
+    - It runs FCFS, SJF, and SRTF sequentially.
 
-  - You will see [MMU] logs appear during CPU bursts, showing address translations.
+    - You will see [MMU] logs appear during CPU bursts, showing address translations.
 
-  - Final statistical tables will compare the performance of each algorithm.
+    - Final statistical tables will compare the performance of each algorithm.
 
 ## Algorithms Summary
 
