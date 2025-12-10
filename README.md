@@ -89,13 +89,13 @@ We need to compare multiple algorithms (FCFS vs. SJF) on the exact same dataset 
 ### Compilation
 To compile all components (Scheduler, Process logic, MMU, Auth) into a single executable:
 
-    ##### g++ main.cpp auth.cpp Process.cpp Scheduler.cpp MMU.cpp -o os_sim
-
+     g++ main.cpp auth.cpp Process.cpp Scheduler.cpp MMU.cpp -o os_sim
+     
 
 ### Execution
 1. Run the program:
 
-    ##### ./os_sim
+     ./os_sim
 
 
 3. Login: Enter admin and password123.
